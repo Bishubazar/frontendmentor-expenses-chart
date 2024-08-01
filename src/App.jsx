@@ -27,8 +27,7 @@ function App() {
                                     </div>
                                     <div
                                         className={twMerge(
-                                            "bg-soft-red w-full rounded [&:nth-child(3)]:bg-red-500 hover:opacity-60",
-                                            "h-[" + el.amount + "px]",
+                                            "bg-soft-red w-full rounded  hover:opacity-60",
                                             index == 2 && "bg-cyan"
                                         )}
                                         style={{ height: el.amount * 3 }}
