@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+/* Weights: 400, 700 */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    body {
+        font-family: "DM Sans", sans-serif;
+
+        @apply text-sm text-base font-light bg-cream text-brown-dark sm:text-lg;
+    }
+}
